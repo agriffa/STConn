@@ -73,7 +73,7 @@ and a structural connectivity matrix.
 
 			A. Griffa, B. Ricaud, K. Benzi, X. Bresson, A. Daducci, P. Vandergheynst, J.P. Thiran, P Hagmann (2017)
 			Transient Networks of Spatio-temporal Connectivity Map Communication Pathways in Brain Functional Systems.
-			Submitted to NeuroImage
+			NeuroImage 155:490-502.
 
 """
 
