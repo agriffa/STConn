@@ -13,7 +13,7 @@ from sklearn import preprocessing
 
 DESCRIPTION = """
 
-This function outputs a spatio-temporal given a set of functional time series
+This function outputs a spatio-temporal graph given a set of functional time series
 and a structural connectivity matrix.
 
  INPUTs
@@ -22,8 +22,8 @@ and a structural connectivity matrix.
                 connectivity matrix. Note that the structural connectivity
                 matrix is assumed to be binary
                 [string]
- - TS_filename: csv file contianing the matrix of the functional
-                the time series (each row corresopnds to a single region
+ - TS_filename: csv file containing the matrix of the functional
+                time series (each row corresopnds to a single region
                 time series). Note that the script expects the number of
                 rows of the time series matrix to be equal to the dimension
                 of the (square) structural conenctivity matrix 
@@ -52,7 +52,7 @@ and a structural connectivity matrix.
    ["output_prefix_"FM.mat"]
 
 
- REQUIRE
+ REQUIREs
  	Python networkx
  	Python numpy
  	Python scipy
@@ -60,20 +60,11 @@ and a structural connectivity matrix.
  	Python sys
 
 
- CREDITS	Alessandra Griffa
-			alessandra.griffa@epfl.ch
-
-			Department of Radiology
-			Center hospitalier universitaire vaudois (CHUV) and Université de Lausanne (UNIL)
-			Lausanne, Switzerland
-
-			Signal Processing Laboratory LTS5
-			École polytechnique fédérale de Lausanne (EPFL)
-			Lausanne, Switzerland
-
-			A. Griffa, B. Ricaud, K. Benzi, X. Bresson, A. Daducci, P. Vandergheynst, J.P. Thiran, P Hagmann (2017)
+ CREDITS	A. Griffa, B. Ricaud, K. Benzi, X. Bresson, A. Daducci, P. Vandergheynst, J.P. Thiran, P Hagmann (2017)
 			Transient Networks of Spatio-temporal Connectivity Map Communication Pathways in Brain Functional Systems.
 			NeuroImage 155:490-502.
+			
+			alessandra.griffa@gmail.com
 
 """
 
