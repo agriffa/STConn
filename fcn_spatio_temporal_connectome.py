@@ -108,7 +108,7 @@ def main():
 	TS_filename = args.TS_filename
 	LABEL_filename = args.LABEL_filename
 	pos_threshold = float(args.pos_threshold)
-	output_dir = args.output_dir
+	output_prefix = args.output_prefix
 	
 	# Load inputs
 	# [1] subject
@@ -141,10 +141,10 @@ def main():
 	
 	# Define output file names
 	# ======================================================================
-	TS_zscore_filename = os.path.join(output_prefix + "_ts_zscore.mat")
-	G_filename = os.path.join(output_prefix + "_spatio-temporal_connectome.gpickle")
-	CC_filename = os.path.join(output_prefix + "_CC.mat")
-	FM_filename = os.path.join(output_prefix + "_FM.mat")
+	TS_zscore_filename = os.path.join(output_prefix + "ts_zscore.mat")
+	G_filename = os.path.join(output_prefix + "spatio-temporal_connectome.gpickle")
+	CC_filename = os.path.join(output_prefix + "CC.mat")
+	FM_filename = os.path.join(output_prefix + "FM.mat")
 	
 	
 	
